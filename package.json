@@ -15,7 +15,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/rakesh190/hello-react.git"
+    "url": "git+ssh://git@github.com/rakesh190/zip-food.git"
   },
   "bugs": {
     "url": "https://github.com/rakesh190/hello-react/issues"
