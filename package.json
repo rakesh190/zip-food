@@ -18,9 +18,9 @@
     "url": "git+ssh://git@github.com/rakesh190/zip-food.git"
   },
   "bugs": {
-    "url": "https://github.com/rakesh190/hello-react/issues"
+    "url": "https://github.com/rakesh190/zip-food/issues"
   },
-  "homepage": "https://github.com/rakesh190/hello-react#readme",
+  "homepage": "https://github.com/rakesh190/zip-food#readme",
   "devDependencies": {
     "parcel": "^2.9.2",
     "postcss": "^8.5.2",
