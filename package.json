@@ -1,0 +1,38 @@
+{
+  "name": "zip-food",
+  "version": "1.0.0",
+  "description": "'My first app'",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "basic-react-app"
+  ],
+  "author": "Rakesh",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rakesh190/hello-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rakesh190/hello-react/issues"
+  },
+  "homepage": "https://github.com/rakesh190/hello-react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.2",
+    "postcss": "^8.5.2",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.29.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
