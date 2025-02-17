@@ -7,9 +7,6 @@ import { CDN_URL } from "../utils/constants";
 
 const RestaurantMenu = () => {
   const [showIndex, setShowIndex] = useState(null);
-  function togglePanel(index) {
-    setShowIndex((prevIndex) => (prevIndex === index ? null : index)); // Toggle logic
-  }
   const params = useParams();
   const { resId } = params;
 
@@ -29,7 +26,6 @@ const RestaurantMenu = () => {
         c.card?.card?.["@type"] ===
         "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
     );
-  console.log(categories);
 
   //console.log(resInfo);
 
@@ -47,7 +43,9 @@ const RestaurantMenu = () => {
             key={category?.card?.card?.title}
             data={category?.card?.card}
             showItems={index === showIndex ? true : false}
-            setShowIndex={() => togglePanel(index)}
+            // setShowIndex={() => togglePanel(index)}
+            setShowIndex={setShowIndex}
+            index={index}
           />
         );
       })}

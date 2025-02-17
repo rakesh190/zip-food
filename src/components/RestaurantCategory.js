@@ -1,9 +1,9 @@
 import { useState } from "react";
 import ItemList from "./ItemList";
 
-const RestaurantCategory = ({ data, showItems, setShowIndex }) => {
+const RestaurantCategory = ({ data, showItems, setShowIndex, index }) => {
   const handleClick = () => {
-    setShowIndex();
+    setShowIndex((prevIndex) => (prevIndex === index ? null : index));
   };
   return (
     <div>

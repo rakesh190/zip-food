@@ -105,7 +105,10 @@ const Body = () => {
                 {...restaurant}
               />
             ) : (
-              <RestaurantCard {...restaurant} />
+              <RestaurantCard
+                key={restaurant?.card?.card?.info?.id}
+                {...restaurant}
+              />
             )}
           </Link>
         ))}
